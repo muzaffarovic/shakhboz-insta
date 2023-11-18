@@ -1,0 +1,12 @@
+.img_slide{
+    transition: 1s;
+    animation: slide-up .5s ease-in-out;
+  }
+  @keyframes slideup{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

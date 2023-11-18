@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -27,12 +28,19 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
+.img_slide{
+  transition: 1s;
+  animation: slide-up .5s ease-in-out;
+}
+.lik{
+  display: flex;
+  align-items: center;
+}
+@keyframes slideup{
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
